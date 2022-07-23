@@ -6,7 +6,9 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.simple.SimpleJdbcCall;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
+import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -48,7 +50,11 @@ public interface InterfaceCrud<T> extends Serializable {
 	
 	JdbcTemplate getJdbcTemplate();
 	
+	SimpleJdbcTemplate getSimpleJdbcTemplate();
+	
 	SimpleJdbcInsert getSimpleJdbcInsert();
+	
+	SimpleJdbcCall getSimpleJdbcCall();
 	
 	Long totalResgistros(String table) throws Exception;
 	
