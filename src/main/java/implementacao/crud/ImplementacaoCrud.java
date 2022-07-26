@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import hibernate.session.HibernateUtil;
 import interfaceCrud.InterfaceCrud;
 
+@SuppressWarnings("unchecked")
 @Component
 @Transactional
 public class ImplementacaoCrud<T> implements InterfaceCrud<T>{
@@ -217,10 +218,13 @@ public class ImplementacaoCrud<T> implements InterfaceCrud<T>{
 		}
 	}
 	
+	
+	@SuppressWarnings("unused")
 	private void commitProcessAjax() {
 		sessionFactory.getCurrentSession().beginTransaction().commit();
 	}
 	
+	@SuppressWarnings("unused")
 	private void rollBacProcessAjax() {
 		sessionFactory.getCurrentSession().beginTransaction().rollback();
 	}
