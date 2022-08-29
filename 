@@ -1,0 +1,59 @@
+[33mcommit 55e5aef60e29aab5309cc13a3f45ff90c270e95b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Thu Jul 28 09:37:28 2022 -0300
+
+    dateUtil ReportUtil
+
+[33mcommit b6a305fec5a05fbcaa3c05506a3dc5b6b66da7c5[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Tue Jul 26 09:34:43 2022 -0300
+
+    config mensagens
+
+[33mcommit dab20502fca53ac4c9557ca9bb221524b51cddba[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Tue Jul 26 08:37:25 2022 -0300
+
+    anotacao campo pesquisa, objeto pesquisa, viewScope
+
+[33mcommit 592216892b176259ee33586608bed9d62d16bd5a[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Mon Jul 25 21:26:23 2022 -0300
+
+    Inclusao Permissões
+
+[33mcommit ae37603e57f3b3dcce52ad6a604a4f47171348ef[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Sun Jul 24 17:09:38 2022 -0300
+
+    inclusao arquivo context.xml
+
+[33mcommit 77283fe3cd7a2853f8f0abd83d35fcba48979f9a[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Sun Jul 24 16:40:34 2022 -0300
+
+    configurando arquivo de configuracao do hibernate
+
+[33mcommit f6041d35b3b64c05539b68cc7290e49ccdc1d35d[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Sun Jul 24 15:56:03 2022 -0300
+
+    finalizando implementacao crud
+
+[33mcommit eb3c95c05c1100399b56cf187b59e35800d4f6ea[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Sat Jul 23 10:03:59 2022 -0300
+
+    implementacao crud parcial
+
+[33mcommit 7157e343741ede8218989b21dac9876b2ad3ac85[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Fri Jul 22 11:37:02 2022 -0300
+
+    criacao interface crud
+
+[33mcommit ba3de841fe178d4333a606da65d87c8e6cd648c2[m
+Author: Julio Cesar Melegari <juliocesar.melegari@gmail.com>
+Date:   Fri Jul 22 10:50:06 2022 -0300
+
+    criacao projeto, conf hibernate util

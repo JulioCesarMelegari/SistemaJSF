@@ -118,8 +118,8 @@ public class ReportUtil implements Serializable{
 			extensaoArquivoExportado = EXTENSION_XLS;
 			break;
 		case ReportUtil.RELATORIO_PLANILHA_OPEN_OFFICE:
-			tipoArquivoExportado = new JROdtExporter();
-			extensaoArquivoExportado = EXTENSION_ODS;
+				tipoArquivoExportado = new JROdtExporter();
+				extensaoArquivoExportado = EXTENSION_ODS;
 			break;
 		default:
 			tipoArquivoExportado = new JRPdfExporter();
