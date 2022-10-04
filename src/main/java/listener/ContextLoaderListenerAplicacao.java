@@ -20,7 +20,7 @@ public class ContextLoaderListenerAplicacao extends ContextLoaderListener implem
 	
 	//metodo que pega um objeto especifico pelo id
 	@SuppressWarnings("unused")
-	private static Object getBean(String idNomeBean) {
+	public static Object getBean(String idNomeBean) {
 		return getWac().getBean(idNomeBean);
 	}
 	//metodo que pega um objeto especifico pela classe

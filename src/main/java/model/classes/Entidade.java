@@ -34,5 +34,13 @@ public class Entidade implements Serializable {
 	public void setEnt_senha(String ent_senha) {
 		this.ent_senha = ent_senha;
 	}
+	
+	public Long getEnt_codigo() {
+		return ent_codigo;
+	}
+	
+	public void setEnt_codigo(Long ent_codigo) {
+		this.ent_codigo = ent_codigo;
+	}
 		
 }
